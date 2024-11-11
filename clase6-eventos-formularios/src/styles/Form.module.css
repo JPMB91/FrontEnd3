@@ -1,0 +1,34 @@
+.formulario {
+  width: 60dvw;
+  padding: 3rem;
+  border: solid 2px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(91, 156, 194);
+  color: black;
+
+  /* max-height: 80dvh; */
+  
+  & input{
+    margin: 2px 2px; 
+    padding: 2%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    
+    
+  }
+  & button{
+  width: 80%;
+  margin: 10px auto;
+  }
+  & .errorMessage {
+    height: 1rem; 
+    color: red;
+    flex-wrap: wrap; 
+  }
+  & label{
+    font-weight: bold;
+  }
+}

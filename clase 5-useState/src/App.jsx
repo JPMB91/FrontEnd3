@@ -15,7 +15,7 @@ function App() {
       <button onClick={() => addTaskHandler('Lavar Papas')}>Lavar papas</button>
       <button onClick={() => addTaskHandler('Picar papas')}>Picar papas</button>
       <button onClick={() => addTaskHandler('Freir papas')}>Freir papas</button>
-
+ 
       <ul>
         <Tasks tasks={task}/>
       </ul>

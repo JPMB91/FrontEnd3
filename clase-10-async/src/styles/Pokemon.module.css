@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  justify-content: center;
+}
+
+.pokemonClass {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  align-items: center;
+
+}

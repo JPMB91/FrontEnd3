@@ -22,9 +22,14 @@ function App() {
     const data = await fetch(`https://api.github.com/users/${input}`);
     const json = await data.json();
 
-    const { name, avatar_url, html_url, login } = json;
+    // Aquí ya no debemos ocuparnos de extraer las propiedades
+    // que deseamos almacenar, ya que de ello se
+    // ocupará el reducer
+    changeUser(json)
 
-    changeUser({ name, avatar_url, html_url, username: login });
+    // const { name, avatar_url, html_url, login } = json;
+
+    // changeUser({ name, avatar_url, html_url, username: login });
   };
 
   return (
